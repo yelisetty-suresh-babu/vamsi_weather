@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url("./../public/image.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: black;
+}
+
+.weather-card,
+.forecast-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
